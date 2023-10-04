@@ -19,7 +19,7 @@ function MovieItem({ movie }) {
         <h3 className="movie-item__title">{title}&nbsp; {release_date}</h3>
         <p>Imdb: {vote_average}</p>
         <button onClick={onClickHandler} type="button" className="movie-item__add-button">
-          Добавить в список
+        Add to the list
         </button>
       </div>
     </article>

@@ -6,7 +6,7 @@ function SearchBox(props) {
     <div className="search-box" >
       <form className="search-box__form" onSubmit={props.searchBoxSubmitFinder}>
         <label className="search-box__form-label">
-          Искать фильм по названию:
+        Search movie by title:
           <input
             value={props.inputVal}
             type="text"
@@ -19,7 +19,7 @@ function SearchBox(props) {
           type="submit"
           className="search-box__form-submit"
         >
-          Искать
+          Search
         </button>
       </form>
     </div>

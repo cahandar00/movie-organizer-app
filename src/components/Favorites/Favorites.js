@@ -53,7 +53,7 @@ function Favorites() {
         })}
       </ul>
       <button onClick={onSubmitHandler} type="button" className={`favorites__save${isValid ? " valid" : ""}`}>
-        Сохранить список
+      Save list
       </button>
     </div>
   );
